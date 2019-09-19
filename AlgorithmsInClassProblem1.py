@@ -1,4 +1,8 @@
 #Split list with equal number of items and minimized "weight" (sum of items) difference
+#There is a brute force way where you can find every combination of partition and then find the minimum weight difference.
+#I decided to try to implement a greedy algorithm that partitioned at the beginning and then switched items if it improved decreased
+#the weight difference. It worked for every test case I thought of. There is a chance its not optimal with all cases. It runs O(n^2/4).
+#I went back a fixed some bugs after class.
 
 #Input: L list
 #Output: Sum of items or "weight"
