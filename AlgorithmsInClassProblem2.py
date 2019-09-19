@@ -1,3 +1,4 @@
+#Trinary search - instead of binary search with 2 cutting the list in half, this cuts the list into thirds
 def trisearch(L,n):
   #prepare to divide the list
   length=len(L)
