@@ -1,3 +1,5 @@
+#mergesort with 3 lists
+
 #merge 3 lists
 def merge(L1,L2,L3):
   retL=[]
