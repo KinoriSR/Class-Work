@@ -1,5 +1,6 @@
 #Find maximum sequence sum in input sequence.
 #find the sum of the sequences within L
+#There is a faster way that is O(n) that holds keeps track of 3 sequences and their weights (best, extending best and current).
 def sumSeq(L):
   total=0
   L_total=[]
